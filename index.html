@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<head>
+		<link rel="stylesheet" href="/css/style.css"/>
+		<title>Personal Website Template</title>
+		<!-- Functions for switching content in nav -->
+		<script type="text/javascript">
+		var navbar,content;
+		function active(navind){
+			for(i=0;i<navbar.children.length;i++){
+				navbar.children[i].classList.remove("active");
+			}
+			navbar.children[navind].classList.add("active");
+		}
+		function hide(e){
+			e.style.display="none";
+		}
+		function show(e){
+			e.style.display="block";
+		}
+		function hideAll(){
+			for(i=0;i<content.children.length;i++){
+				hide(content.children[i]);
+			}
+		}
+		function init(){
+			console.log("It seems like you are interested in our website's source. You may join us to improve our website!\n\tTravor Liu\t<travor_lzh@outlook.com>");
+			navbar=document.getElementById("navbar");
+			content=document.getElementById("content");
+			switch_page(0);
+		}
+		function switch_page(ind){
+			hideAll();
+			show(content.children[ind]);
+			active(ind);
+		}
+		</script>
+	</head>
+	<body>
+		<div id="navbar">
+			<a href="javascript:void(0)" onclick="switch_page(0)">HOME</a>
+			<a href="javascript:void(0)" onclick="switch_page(1)">NEWS</a>
+			<a href="javascript:void(0)" onclick="switch_page(2)">DOWNLOADS</a>
+			<form action="https://www.google.com/search" method="GET">
+				<input type="text" name="q" placeholder="Google..."/>
+			</form>
+		</div>
+		<div id="main">
+			<div id="sidebar">
+				<h3>Suggested&nbsp;Websites</h3>
+				<ul class="linklist">
+					<li><a href="http://facebook.com">Facebook</a></li>
+					<li><a href="http://twitter.com">Twitter</a></li>
+					<li><a href="https://plus.google.com">Google Plus</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<div id="home">
+					<h1>Home</h1>
+					<p>This is a demonstrative site that shows you how a simple website is arranged.</p>
+				</div>
+				<div id="news">
+					<h1>News</h1>
+					<p>Nothing happened</p>
+				</div>
+				<div id="download">
+					<h1>Download Stuff</h1>
+					<p>If you want to see everything I have, <a target="_blank" href="http://localhost:85">click here to my FTP</a>.</p>
+					<ref>NOTE: Most of the tarballs are for UN*X systems</ref>
+				</div>
+			</div>
+		</div>
+		<script>init();</script>
+	</body>
+</html>
