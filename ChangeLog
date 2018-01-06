@@ -1,0 +1,65 @@
+commit 259616007c1a083f9e2192db43ab8b4b9ecf5de3
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:15:40 2018 -0500
+
+    Added AUTHORS
+
+commit c97726c71a805854ef8f35b8ef74ac9ea8416598
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:09:11 2018 -0500
+
+    Fixed typo
+
+commit 23dd14c95674d50a3a3b553addec55f2a630291e
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:05:13 2018 -0500
+
+    Updated NEWS
+
+commit 1e06934b24c0e6f49841923af2ebdb72c6305d3f
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:04:36 2018 -0500
+
+    Updated NEWS
+
+commit 23986d052d3bcfd23802b0732fdf1f2e5ea0143f
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:01:14 2018 -0500
+
+    Added animations on buttons
+
+commit e4b3fa43530db45100e862c8246b25209797ce04
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 10:11:41 2018 -0500
+
+    Added text icon support
+
+commit 6ecb88da184e7061902b9187e7e1452c63bb723e
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 06:49:36 2018 -0500
+
+    Added NEWS
+
+commit 30c29b3b818b6590e081b432e595618f7719f72b
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 06:39:59 2018 -0500
+
+    Substitute custom element `<ref>' by `<blockquote>'
+
+commit a8b8085b068ed8833231d340ada710e86a8a5406
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 06:39:40 2018 -0500
+
+    Added more information
+
+commit 85193e9aaa194f4659ce72712714851fbd3461c1
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 06:35:43 2018 -0500
+
+    Added support for browsing it without a server connection
+
+commit ec7943a91a2f753705dc134284ca2efdc714a8ce
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 06:33:37 2018 -0500
+
+    Initial Commit
