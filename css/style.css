@@ -78,15 +78,13 @@ h1,h2,h3,h4,h5,h6{
 	padding: 10px;
 	padding-left: 0;
 }
-ref{
+blockquote{
+	margin: 0;
 	float: left;
 	width: 100%;
 	background-color: yellow;
 	padding: 5px;
-	border: 10px solid red;
-	border-top: 0;
-	border-bottom: 0;
-	border-right: 0;
+	border-left: 10px solid red;
 }
 .linklist{
 	width: 100%;
