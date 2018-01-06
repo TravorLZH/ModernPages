@@ -1,3 +1,15 @@
+Changes in v1.1 on Jan 6th, 2018
+
+	Bug fixed:
+	* Alert within JavaScript when nothing is inside the Search Box
+
+	Features:
+	* Added animations on Navigation Bar
+	* Added animations on Side Bar
+	* Added font icon support `font-awesome'
+	* Added more text on `HOME' and `NEWS'
+	* Navigation Bar and Side Bar are sticky now
+
 Changes in v1.0 on Jan 6th, 2018
 
 	Features:
