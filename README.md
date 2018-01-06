@@ -4,4 +4,6 @@ This is inspired by my [GitHub Page][ghpage]. It's created for testing my abilit
 
 I uploaded it because it explicates how different pages are shown in one file. This decreases the use of multiple files. You may visit it [here](http://modern.travor.top)
 
+> This repo `does not` requires Jekyll or any Server-Side script. You may run this page by clicking `index.html`.
+
 [ghpage]: http://www.travor.top
