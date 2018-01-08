@@ -1,3 +1,27 @@
+commit 268071b90898b04e0973574355a74690da3ab7e0
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sun Jan 7 19:07:47 2018 -0500
+
+    Added search button on search bar and changed the color of search box
+
+commit 1b45d9ad25636872f9dc5198a9bc29b9af613f44
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 15:49:21 2018 -0500
+
+    Create CNAME
+
+commit 8704e561064b25916d60fd80750158f85ba6ae73
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 15:47:49 2018 -0500
+
+    Added AUTHORS
+
+commit c312020b55210db2d33471c6850b63c321dd8a03
+Author: Travor Liu <travor_lzh@outlook.com>
+Date:   Sat Jan 6 11:31:43 2018 -0500
+
+    Updated ChangeLog
+
 commit 3f0d58e098da9a9fef52aad1c1b8cfc2169a3862
 Author: Travor Liu <travor_lzh@outlook.com>
 Date:   Sat Jan 6 11:26:16 2018 -0500
