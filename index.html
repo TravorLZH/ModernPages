@@ -47,6 +47,15 @@
 		}
 		</script>
 	</head>
+	<style>
+		::placeholder{
+			color: #CCCCCC;
+			opacity: 1;
+		}
+		input:focus{
+			outline: none;
+		}
+	</style>
 	<body>
 		<div id="navbar">
 			<a href="javascript:void(0)" onclick="switch_page(0)">HOME</a>
@@ -54,8 +63,9 @@
 			<a href="javascript:void(0)" onclick="switch_page(2)">DOWNLOADS</a>
 			<form action="https://www.google.com/search" method="GET" onsubmit="return on_search();">
 				<input type="text" id="search" title="Search on Google" name="q" placeholder="Search.."/>
+				<button type="submit"><i class="fa fa-search"></i></button>
 			</form>
-			<a title="GitHub"><i class="fa fa-github"></i></a>
+			<a href="https://github.com/TravorLZH/ModernPages/" title="View Source"><i class="fa fa-github"></i></a>
 		</div>
 		<div id="main">
 			<div id="sidebar">

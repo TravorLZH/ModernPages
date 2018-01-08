@@ -53,15 +53,35 @@ h1,h2,h3,h4,h5,h6{
 	color: black;
 	transition: all 0.5s;
 }
-#navbar input[type='text']{
+#navbar form{
 	float: right;
-	margin: 5px;
+	margin: 5px
+}
+#navbar input[type='text']{
 	border: none;
+	float: left;
 	font-family: Arial;
+	height: 30px;
+	color: white;
+	padding: 0;
 	padding-left: 3px;
-	height: 28px;
-	color: black;
-	background-color: #FFFFFF;
+	background-color: #555555;
+}
+#navbar button[type='submit']{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: #EEEEEE;
+}
+#navbar button:hover{
+	background-color: #CCCCCC;
+}
+#navbar button:active{
+	background-color: #888888;
+}
+#navbar button:focus{
+	outline: none;
 }
 #main{
 	margin-top: 41px;
