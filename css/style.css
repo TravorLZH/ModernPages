@@ -108,11 +108,13 @@ h1,h2,h3,h4,h5,h6{
 	margin-left: 280px;
 }
 .note{
-	margin: 0;
+	margin: 10px;
+	margin-top: 0px;
 	float: left;
 	background-color: yellow;
 	padding: 5px;
 	height: auto;
+	display: block;
 	border-left: 10px solid orange;
 }
 .linklist{
