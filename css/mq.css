@@ -1,0 +1,28 @@
+/* Styles for both devices */
+.hidden{
+	display: none;
+}
+/* Styles on desktop devices */
+@media only screen and (min-width: 550px) {
+	.hide-on-large{
+		display: none;
+	}
+	.mobile-menu-btn{
+		visibility: hidden;
+	}
+}
+/* Styles on mobile devices */
+@media only screen and (max-width: 550px) {
+	.hide-on-small{
+		display: none;
+	}
+	#pages{
+		margin-left: 10px;
+	}
+	.navleft{
+		display: none;
+	}
+	#sidebar{
+		display: none;
+	}
+}

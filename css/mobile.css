@@ -1,0 +1,48 @@
+#sidemenu{
+	width: 70%;
+	z-index: 3;
+	position: fixed;
+	height: 100%;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #a0a0a0;
+	color: white;
+	opacity: 0.97;
+	animation: sideshow 1s;
+}
+#sidetop{
+	height: 41px;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+#sidetop a i{
+	font-size: 18px;
+}
+#sidetop a{
+	width: 100%;
+	font-family: Arial;
+	display: inline-block;
+	color: black;
+	padding: 10px;
+	text-align: left;
+	text-decoration: none;
+}
+@keyframes sideshow{
+	from {
+		width: 0;
+	}
+	to {
+		width: 70%;
+	}
+}
+@keyframes sidehide{
+	from {
+		width: 70%;
+	}
+	to {
+		width: 0;
+	}
+}
