@@ -3,49 +3,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<head>
 		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/mobile.css"/>
+		<link rel="stylesheet" href="css/mq.css"/>
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css"/>
 		<title>Personal Website Template</title>
-		<!-- Functions for switching content in nav -->
-		<script type="text/javascript">
-		var navbar,pages,searchbox;
-		
-		function on_search(){
-			if(searchbox.value==""){
-				window.alert("Enter something!");
-				return false;
-			}
-			return true;
-		}
-		function active(navind){
-			for(i=0;i<navbar.children.length;i++){
-				navbar.children[i].classList.remove("active");
-			}
-			navbar.children[navind].classList.add("active");
-		}
-		function hide(e){
-			e.style.display="none";
-		}
-		function show(e){
-			e.style.display="block";
-		}
-		function hideAll(){
-			for(i=0;i<pages.children.length;i++){
-				hide(pages.children[i]);
-			}
-		}
-		function init(){
-			console.log("It seems like you are interested in our website's source. You may join us to improve our website!\n\tTravor Liu\t<travor_lzh@outlook.com>");
-			navbar=document.getElementById("navbar");
-			pages=document.getElementById("pages");
-			searchbox=document.getElementById("search");
-			switch_page(0);
-		}
-		function switch_page(ind){
-			hideAll();
-			show(pages.children[ind]);
-			active(ind);
-		}
-		</script>
+		<script src="js/basic.js"></script>
+		<script src="js/sidemenu.js"></script>
 	</head>
 	<style>
 		::placeholder{
@@ -57,18 +20,28 @@
 		}
 	</style>
 	<body>
+		<div id="sidemenu" class="hidden">
+			<div id="sidetop">
+				<a><i class="fa fa-bars" onclick="close_menu()"></i></a>
+			</div>
+		</div>
 		<div id="navbar">
-			<a href="javascript:void(0)" onclick="switch_page(0)">HOME</a>
-			<a href="javascript:void(0)" onclick="switch_page(1)">NEWS</a>
-			<a href="javascript:void(0)" onclick="switch_page(2)">DOWNLOADS</a>
-			<form action="https://www.google.com/search" method="GET" onsubmit="return on_search();">
+			<div class="hide-on-large">
+				<a href="javascript:void(0)" onclick="open_menu()" class="mobile-menu-btn"><i class="fa fa-bars"></i></a>
+			</div>
+			<div class="navleft" class="hide-on-small">
+				<a href="javascript:void(0)" onclick="switch_page(0)">HOME</a>
+				<a href="javascript:void(0)" onclick="switch_page(1)">NEWS</a>
+				<a href="javascript:void(0)" onclick="switch_page(2)">DOWNLOADS</a>
+				<a href="https://github.com/TravorLZH/ModernPages/" title="View Source"><i class="fa fa-github"></i></a>
+			</div>
+			<form class="hide-on-small" action="https://www.google.com/search" method="GET" onsubmit="return on_search();">
 				<input type="text" id="search" title="Search on Google" name="q" placeholder="Search.."/>
 				<button type="submit"><i class="fa fa-search"></i></button>
 			</form>
-			<a href="https://github.com/TravorLZH/ModernPages/" title="View Source"><i class="fa fa-github"></i></a>
 		</div>
 		<div id="main">
-			<div id="sidebar">
+			<div id="sidebar" class="hide-on-small">
 				<h3>Suggested&nbsp;Websites</h3>
 				<ul class="linklist">
 					<li><a href="http://facebook.com">Facebook</a></li>

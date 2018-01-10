@@ -20,10 +20,12 @@ h1,h2,h3,h4,h5,h6{
 	top: 0;
 	left: 0;
 	right: 0;
+	overflow-x: hidden;
+	height: 41px;
 	z-index: 2;
 	width: 100%;
 	margin: 0;
-	background-color: black;
+	background-color: #303030;
 	color: white;
 }
 #navbar a i{
@@ -32,7 +34,6 @@ h1,h2,h3,h4,h5,h6{
 #navbar a{
 	font-family: Arial;
 	display: inline-block;
-	float: left;
 	padding: 10px;
 	text-decoration: none;
 	font-size: large;
@@ -44,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
 	background-color: red;
 	transition: all 0.5s;
 }
-#navbar a:hover:not(.active){
+#navbar a:hover:not(.active):not(.mobile-menu-btn){
 	background-color: green;
 	transition: all 0.5s;
 }
@@ -53,9 +54,20 @@ h1,h2,h3,h4,h5,h6{
 	color: black;
 	transition: all 0.5s;
 }
+.navleft{
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+.navleft a{
+	float: left;
+}
 #navbar form{
+	position: absolute;
+	right: 5px;
+	top: 5px;
 	float: right;
-	margin: 5px
 }
 #navbar input[type='text']{
 	border: none;
