@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6{
 	top: 0;
 	left: 0;
 	right: 0;
-	overflow-x: hidden;
+	overflow: hidden;
 	height: 41px;
 	z-index: 2;
 	width: 100%;
@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
 	background-color: red;
 	transition: all 0.5s;
 }
-#navbar a:hover:not(.active):not(.mobile-menu-btn){
+.navleft a:hover:not(.active){
 	background-color: green;
 	transition: all 0.5s;
 }
