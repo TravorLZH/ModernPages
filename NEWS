@@ -1,5 +1,19 @@
 						Project News
 
+Changes in v1.5-r1 on Jan 10th, 2018
+
+	Bugs fixed:
+	* Fixed navigation bar's scrolling problem.
+	* Fixed not-working side menu
+
+	Features:
+	* Added item for sidemenu
+
+Changes in v1.5 on Jan 10th, 2018
+
+	Features:
+	* Added side menu effect.
+
 Changes in v1.1 on Jan 6th, 2018
 
 	Bugs fixed:
