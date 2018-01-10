@@ -1,3 +1,15 @@
+#sidemenu .menu a{
+	display: block;
+	padding: 5px;
+	font-size: larger;
+	margin: 0;
+	outline: none;
+	color: white;
+	background-color: #555555;
+}
+#sidemenu .menu .active{
+	
+}
 #sidemenu{
 	width: 70%;
 	z-index: 3;
@@ -22,13 +34,18 @@
 	font-size: 18px;
 }
 #sidetop a{
-	width: 100%;
+	height: 21px;
+	margin: 0;
 	font-family: Arial;
 	display: inline-block;
 	color: black;
 	padding: 10px;
 	text-align: left;
 	text-decoration: none;
+}
+#sidetop a:active{
+	background-color: black;
+	color: white;
 }
 @keyframes sideshow{
 	from {

@@ -1,12 +1,12 @@
 function open_menu(){
 	var m=document.getElementById("sidemenu");
-	m.className="";
+	m.classList.remove("hidden");
 }
 function close_menu(){
 	var m=document.getElementById("sidemenu");
 	m.style.animation="sidehide 1s";
 	setTimeout(function(){
 		m.style="";
-		m.className="hidden";
+		m.classList.add("hidden");
 	},1000);
 }

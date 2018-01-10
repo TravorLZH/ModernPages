@@ -1,4 +1,4 @@
-var navbar,pages,searchbox;
+var navbar,pages,searchbox,menu;
 		
 function on_search(){
 	if(searchbox.value==""){
@@ -11,7 +11,11 @@ function active(navind){
 	for(i=0;i<navbar.children.length-1;i++){
 		navbar.children[i].classList.remove("active");
 	}
+	for(i=0;i<menu.children.length;i++){
+		menu.children[i].classList.remove("active");
+	}
 	navbar.children[navind].classList.add("active");
+	menu.children[navind].classList.add("active");
 }
 function hide(e){
 	e.style.display="none";
@@ -26,6 +30,7 @@ function hideAll(){
 }
 function init(){
 	console.log("It seems like you are interested in our website's source. You may join us to improve our website!\n\tTravor Liu\t<travor_lzh@outlook.com>");
+	menu=document.getElementsByClassName("menu")[0];
 	navbar=document.getElementsByClassName("navleft")[0];
 	pages=document.getElementById("pages");
 	searchbox=document.getElementById("search");

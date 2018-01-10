@@ -22,12 +22,18 @@
 	<body>
 		<div id="sidemenu" class="hidden">
 			<div id="sidetop">
-				<a><i class="fa fa-bars" onclick="close_menu()"></i></a>
+				<pre style="margin: 0;font-size: 21px"><a><i class="fa fa-bars" onclick="close_menu()"></i></a><b>MENU</b></pre>
+			</div>
+			<div class="menu">
+				<a href="javascript:void(0)" onclick="close_menu();switch_page(0)">HOME</a>
+				<a href="javascript:void(0)" onclick="close_menu();switch_page(1)">NEWS</a>
+				<a href="javascript:void(0)" onclick="close_menu();switch_page(2)">DOWNLOADS</a>
 			</div>
 		</div>
 		<div id="navbar">
 			<div class="hide-on-large">
 				<a href="javascript:void(0)" onclick="open_menu()" class="mobile-menu-btn"><i class="fa fa-bars"></i></a>
+				<a style="float: right" href="javascript:void(0)" onclick="switch_page(0)"><i class="fa fa-home"></i></a>
 			</div>
 			<div class="navleft" class="hide-on-small">
 				<a href="javascript:void(0)" onclick="switch_page(0)">HOME</a>
