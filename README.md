@@ -6,5 +6,11 @@ I uploaded it because it explicates how different pages are shown in one file. T
 
 > This repo `does not` requires Jekyll or any Server-Side script. You may run this page by clicking `index.html`.
 
+This is what my website looks like
+
+![comp-v1.5-r1](images/comp-v1.5-r1.PNG)
+
+This is what it's like on phone. You may also stretch your browser to see the `responsive` effect
+
 [ghpage]: http://www.travor.top
 
