@@ -12,7 +12,7 @@ This is what my website looks like
 
 This is what it's like on phone. You may also stretch your browser to see the `responsive` effect
 
-![phone-v1.5-r1](images/phone-v1.5-r1.PNG "The look of v1.5-r1 on Nexus 5X")
+<img src="images/phone-v1.5-r1.PNG" title="The look of v1.5-r1 on Nexus 5X" width="300"/>
 
 [ghpage]: http://www.travor.top
 
