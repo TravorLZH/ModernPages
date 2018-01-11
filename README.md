@@ -8,9 +8,11 @@ I uploaded it because it explicates how different pages are shown in one file. T
 
 This is what my website looks like
 
-![comp-v1.5-r1](images/comp-v1.5-r1.PNG)
+![comp-v1.5-r1](images/comp-v1.5-r1.PNG "The look of v1.5-r1")
 
 This is what it's like on phone. You may also stretch your browser to see the `responsive` effect
+
+![phone-v1.5-r1](images/phone-v1.5-r1.PNG "The look of v1.5-r1 on Nexus 5X")
 
 [ghpage]: http://www.travor.top
 
